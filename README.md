@@ -110,7 +110,7 @@ Sherlock Jr.
 
 
 ### find_similar.py
-Searches for similar movies by keyword in your database created with the `make_own_db.py` script [discussed earlier](https://gist.github.com/michaelmatasyants/6a8f2ff249e317cb6ec6f5b1d560a9fa#make_own_dbpy). So to use this script, you should only enter the path to the database and the keyword to search for similar movies.
+Searches for similar movies by keyword in your database created with the `make_own_db.py` script [discussed earlier](https://github.com/michaelmatasyants/tmdb_api#make_own_dbpy). So to use this script, you should only enter the path to the database and the keyword to search for similar movies.
 
 **Let's take a closer look at how it works:**
 
