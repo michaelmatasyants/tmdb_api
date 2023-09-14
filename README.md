@@ -18,7 +18,7 @@ You will be able to search for movies by keywords in the database you have creat
 5. Install and run a [VPN](https://adguard-vpn.com/ru/welcome.html) if you have difficulty accessing [TMDB](https://www.themoviedb.org/).
 In case the VPN download website doesn't open either, you will first need to install and enable [AdGuard Proxy for Chrome](https://chrome.google.com/webstore/detail/adguard-vpn-%E2%80%94-free-secure/hhdobjgopfphlmjbmnpglhfcgppchgje?hl=ru)
 
-1. To use this script you also need an API key. To register for an API key, click the [API link](https://www.themoviedb.org/settings/api) from within your account settings page.
+6. To use this script you also need an API key. To register for an API key, click the [API link](https://www.themoviedb.org/settings/api) from within your account settings page.
 
 
 ## What exactly does each script do?
@@ -53,7 +53,7 @@ This means that everything is in order and you can start using the rest of the s
 
 ### make_own_db.py
 
-Creates your own database (*MyFilmDB.json*) in the project root with all information about `1000 movies`. The only thing that needs to be entered from console is TMDB API Token, which should've been generated on the last [step](https://gist.github.com/michaelmatasyants/6a8f2ff249e317cb6ec6f5b1d560a9fa#:~:text=To%20use%20this%20script%20you%20also%20need%20an%20API%20key.%20To%20register%20for%20an%20API%20key%2C%20click%20the%20API%20link%20from%20within%20your%20account%20settings%20page.).
+Creates your own database (*MyFilmDB.json*) in the project root with all information about `1000 movies`. The only thing that needs to be entered from console is TMDB API Token, which should've been generated on the last [step](https://github.com/michaelmatasyants/tmdb_api#readme:~:text=To%20use%20this%20script%20you%20also%20need%20an%20API%20key.%20To%20register%20for%20an%20API%20key%2C%20click%20the%20API%20link%20from%20within%20your%20account%20settings%20page.).
 
 
 **Let's take a closer look at how it works:**
@@ -82,7 +82,7 @@ Creates *MyFilmDB.json* file and saves information about each movie.
 
 
 ### search_in_db.py
-Searches for movies by keyword in your database created with the `make_own_db.py` script discussed in the [previous step](https://gist.github.com/michaelmatasyants/6a8f2ff249e317cb6ec6f5b1d560a9fa#make_own_dbpy). So to use this script, you should only enter the path to the database and the keyword to search for the movie.
+Searches for movies by keyword in your database created with the `make_own_db.py` script discussed in the [previous step](https://github.com/michaelmatasyants/tmdb_api#make_own_dbpy). So to use this script, you should only enter the path to the database and the keyword to search for the movie.
 
 **Let's take a closer look at how it works:**
 
